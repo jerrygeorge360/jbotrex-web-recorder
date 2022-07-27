@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(aquamarine,white);
+    background-repeat: no-repeat;
+}
+.container{
+
+    /* margin: auto; */
+    box-sizing: border-box;
+    height: 150px;
+    width: 250px;
+    background-image: linear-gradient(black,blueviolet,aquamarine);
+    padding: 4px;
+    border: 2px blueviolet groove;
+}
+
+.audio{
+    background-color: #F1F3F4;
+    width: 100%;
+    border: 1px blueviolet outset;
+    border-radius: 0;
+}
+.capturedaudio{
+    margin-top: 3px;
+    bottom: 0;
+    background-color: #F1F3F4;
+    width: 100%;
+    border: 1px blueviolet outset;
+    border-radius: 0;
+    display: none;
+}
+
+.download,.stop ,.record{
+    text-align: center;
+    cursor: pointer;
+    padding: 2px;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    border: 1px blueviolet dotted;
+    margin-top: 4px;
+    background-image: linear-gradient(black,aquamarine);
+}
+.isdisabled{
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.timer{
+    width: 100%;
+    color: red;
+    background-color: blueviolet;
+}
+
+.title{
+    position: absolute;
+    top:3px;
+    color: white;
+}

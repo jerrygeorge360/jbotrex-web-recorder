@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+
+  <h1 class="title"> JBOTREX WEB RECORDER</h1>
+<div class="">
+  <div class="timer " id="timer"></div>
+  <div class="container">
+    
+
+<!-- media stream this could be an audio ,video  ,canvas element -->
+<!-- I would use an audio tag. -->
+
+
+<!-- this is where I would record the audio to -->
+<audio name="capturedaudio"  id="capturedaudio" class="capturedaudio" controls src=""></audio>
+
+
+<button  id="record" class="record" style="background-color: blue;">start</button>
+<button id="stop" class="stop">stop</button>
+<a id="download" class="download isdisabled" download class="disabled" >download</a>
+
+
+
+
+</div>
+</div>
+<script>
+  document.getElementById('stop').onclick=function(e){
+  
+    this.setAttribute('style','color:orange;');
+    
+  }
+</script>
+<script src="index.js"></script>
+</body>
+</html>

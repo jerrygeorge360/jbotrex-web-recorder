@@ -1,2 +1,2 @@
 # jbotrex-web-recorder
-This is a web recorder built with the media device and mediarecorder api's.
+## This is a web recorder built with the media device and mediarecorder api's from the browser.
